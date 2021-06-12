@@ -53,7 +53,7 @@ setTimeout(function() {
         var newWindow = window.open(nextPageURL);
         setTimeout(function() {
             const newScript = newWindow.document.createElement("script");
-            newScript.src = "https://cdn.jsdelivr.net/gh/chrisephoto/AS-Books-Downloader@main/script.js";
+            newScript.src = "https://chrisephoto.github.io/script.js";
             newWindow.document.head.appendChild(newScript);
         }, 5e3);
     };
